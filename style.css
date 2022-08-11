@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+body{
+    background: #fec107
+    padding: 0 10px;
+    
+}
