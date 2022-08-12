@@ -134,7 +134,8 @@ transition: all 0.3s ease;
     background: #28825F;
 }
 
-.wrapper .form .input_field .check input[type="checkbox"]:checked ~ .checkmark:before{
+.wrapper .form .input_field .check input[type="checkbox"]:checked ~ 
+.checkmark:before{
     display: block;
 }
 
@@ -148,5 +149,13 @@ transition: all 0.3s ease;
     cursor: pointer;
     border-radius: 3px;
     outline: none;
-    
 }
+
+.wrapper .form .input_field .btn:last-child{
+    margin-bottom: 0;
+}
+
+.wrapper .form .input_field .btn:hover{
+    background: #459b7a;
+}
+
