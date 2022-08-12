@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Roboto Slab', serif;
 }
 
 body{
@@ -25,6 +25,63 @@ body{
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 25px;
+    color: #28825F;
+    text-transform: uppercase;
+    text-align: center;
+}
 
+.wrapper .form{
+    width: 100%;
+}
+
+.wrapper .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .input_field label{
+    width: 200px;
+    color: #757575;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.wrapper .form .input_field .input{
+width: 100%;
+outline: none;
+border: 1px solid #d5d5d9;
+font-size: 15px;
+padding: 8px 10px;
+border-radius: 3px;
+transition: all 0.3s ease;
+}
+
+.wrapper .form .input_field .custom_select{
+    position: relative;
+    width: 100%;
+    height: 37px;  
+}
+
+.wrapper .form .input_field .custom_select select{
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #d5d5d9;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.wrapper .form .input_field .custom_select:before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #28825F transparent transparent transparent;
+    pointer-events: none;
+    
 
 }
